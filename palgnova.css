@@ -1,0 +1,57 @@
+@import "reset.css";
+
+body {
+  background: black;
+}
+h1 {
+  position: absolute;
+  z-index: 99;
+  font-size: 24px;
+  color: white;
+  top: 35px;
+  left: 120px;
+
+}
+
+.flex-img{
+  display: flex;
+  width: 100%;
+
+}
+
+.flex{
+  position: absolute;
+  top: 80px;
+  width: 1000px;
+
+}
+
+.flex-im {
+  display: flex;
+  width: 720px;
+
+}
+
+.im {
+  width: 280px;
+  height: 400px;
+  margin-left: 20px;
+  border: 5px;
+  margin-right: 21px;
+
+}
+
+.text1{
+  display: flex;
+  position: absolute;
+  top: 500px;
+  left: 75px;
+
+}
+
+.n {
+  width: 200px;
+  font-size: 12px;
+  color: white;
+  margin-right: 120px;
+}
