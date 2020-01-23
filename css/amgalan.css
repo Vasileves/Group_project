@@ -1,0 +1,175 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 320px;
+  font-family: Helvetica;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+header {
+  background-color: #000;
+  background-image: url(../img/bg.jpg);
+  height: 568px;
+  color: white;
+}
+
+header img {
+  height: 115.85px;;
+  margin-left: 44px;
+  margin-top: 95px;
+}
+
+header span img {
+  height: 18px;
+  margin: 24px;
+}
+
+header h2 {
+  font-family: New York Extra Large;
+  margin-top: 59px;
+  margin-left: 190px;
+  font-size: 14px;
+  width: 90px;
+  font-weight: normal;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.5);
+  overflow-x: hidden;
+  padding-top: 65px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding-left: 10px;
+  padding-top: 14px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.sidenav a:hover {
+  color: #D9BEA5;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  margin-left: 50px;
+  border: none;
+  height: 12px;
+}
+
+.sidenav .closebtn img {
+  height: 12px;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+/* @media (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+  header {
+    background-image: url(../img/bg_768.jpg);
+    height: 1024px;
+  }
+  header h1 {
+    font-size: 80px;
+    width: 709px;
+    margin-top: 400px;
+  }
+  header h2 {
+    margin-top: 21px;
+    font-size: 33px;
+    width: 571px;
+  }
+  header h1,
+  header h2 {
+    margin-left: 30px;
+  }
+  header img {
+    height: 15px;
+  }
+  .sidenav .closebtn {
+    top: -1px;
+  }
+  .sidenav .closebtn img {
+    height: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    width: 1440px;
+  }
+  header {
+    background-image: url(../img/bg_1440.jpg);
+    height: 900px;
+  }
+  header h1 {
+    font-size: 100px;
+    width: 1264px;
+    margin-top: 400px;
+  }
+  header h2 {
+    margin-top: 20px;
+    font-size: 33px;
+    width: 571px;
+  }
+  header h1,
+  header h2 {
+    margin-left: 30px;
+  }
+  header img {
+    height: 15px;
+  }
+  .sidenav .closebtn {
+    top: -1px;
+  }
+  .sidenav .closebtn img {
+    height: 15px;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
