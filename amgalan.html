@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/main_screen.css">
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/close_btn_320.svg" alt="Burger Menu"></a>
+      <a href="#">Биография</a>
+      <a href="#">Галерея</a>
+      <a href="#">Авторы</a>
+    </div>
+    <div id="main"><header>
+      <span onclick="openNav()"><img src="img/burger_menu.svg" alt="Burger Menu"></span>
+      <img src="img/h1.svg" alt="headline">
+      <h2>“Для меня всегда важно испытывать кураж”</h2>
+    </header></div>
+  </body>
+
+  <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "232px";
+    document.getElementById("main").style.marginLeft = "232px";
+    document.getElementById("main").style.opacity = "0.5";
+    }
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("main").style.opacity = "1";
+    }
+  </script>
+</html>
