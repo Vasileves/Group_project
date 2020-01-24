@@ -1,5 +1,8 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@font-face {
+    font-family: "beermoney";
+}
 
 * {
   box-sizing: border-box;
@@ -16,6 +19,10 @@ body {
   font-family: Helvetica;
   font-style: normal;
   background-color: rgba(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 footer {
