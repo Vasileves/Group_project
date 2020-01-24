@@ -2,9 +2,12 @@
     font-family: "beermoney";
 }
 
+.liza {
+  overflow-x: scroll;
+}
 
 .palg {
-  font-family: "beer money";
+  font-family: "beermoney";
   color: yellow;
   position: absolute;
   font-size: 40px;
