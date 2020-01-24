@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @font-face {
     font-family: "beermoney";
+    src: url('css/beermoney.ttf');
 }
 
 * {
