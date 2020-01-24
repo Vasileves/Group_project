@@ -3,6 +3,9 @@
 @font-face {
     font-family: "beermoney";
     src: url('css/beermoney.ttf');
+    src: url('css/beermoney.ttf'); /* IE9 Compat Modes */
+    src: url('css/beermoney.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('css/beermoney.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 * {
