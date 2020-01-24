@@ -1,273 +1,66 @@
-@import "reset.css";
-
-body {
-  background: black;
-
+@font-face {
+    font-family: "beermoney";
 }
 
-h1 {
-  position: absolute;
-  z-index: 99;
-  font-size: 50px;
-  color: white;
-  top: 120px;
-  left: 380px;
 
+.palg {
+  font-family: "beer money";
+  color: yellow;
+  position: absolute;
+  font-size: 40px;
+  top: 72px;
+  left: 99px;
+  z-index: 22;
 }
 
-.img1 {
-  position: absolute;
+.flex-img{
+  display: flex;
+  position: relative;
   width: 100%;
-  height: 100%;
-}
-
-
-.img2 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 968px;
 
 }
 
-.img3 {
+.flex{
   position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 1936px;
+  top: 80px;
+  width: 1000px;
 
 }
 
-.img4 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 2904px;
+.flex-im {
+  padding-top: 92px;
+  display: flex;
+  width: 720px;
 
 }
 
-.img5 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 3872px;
+.im {
+  width: 280px;
+  height: 400px;
+  margin-left: 20px;
+  border: 5px;
+  margin-right: 21px;
 
 }
 
-.img6 {
+/* .text1{
+  display: flex;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 4840px;
+  top: 600px;
+  left: 56px;
+  text-align: center; */
 
 }
 
-.img7 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 5808px;
-
-}
-
-.img8 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 6776px;
-
-}
-
-.img9 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 7744px;
-
-}
-
-.im1 {
-  position: absolute;
-  width: 80%;
-  height: 68%;
-  top: 260px;
-  left: 100px;
-}
-
-.im2 {
-  position: absolute;
-  width: 80%;
-  height: 67%;
-  top: 260px;
-  left: 1050px;
-  border: 9px solid #ffffff;
-}
-
-.im3 {
-  position: absolute;
-  width: 80%;
-  height: 67%;
-  top: 260px;
-  left: 2020px;
-  border: 9px solid #ffffff;
-}
-
-.im4 {
-  position: absolute;
-  width: 80%;
-  height: 67%;
-  top: 260px;
-  left: 2990px;
-  border: 9px solid #ffffff;
-}
-
-.im5 {
-  position: absolute;
-  width: 80%;
-  height: 67%;
-  top: 260px;
-  left: 3955px;
-  border: 9px solid #ffffff;
-}
-
-.im6 {
-  position: absolute;
-  width: 80%;
-  height: 67%;
-  top: 260px;
-  left: 4920px;
-  border: 9px solid #ffffff;
-}
-
-.im7 {
-  position: absolute;
-  width: 80%;
-  height: 67%;
-  top: 260px;
-  left: 5895px;
-  border: 9px solid #ffffff;
-}
-
-.im8 {
-  position: absolute;
-  width: 80%;
-  height: 67%;
-  top: 260px;
-  left: 6865px;
-  border: 9px solid #ffffff;
-}
-
-.im9 {
-  position: absolute;
-  width: 80%;
-  height: 67%;
-  top: 260px;
-  left: 7825px;
-  border: 9px solid #ffffff;
-}
-
-.n1 {
-  position: absolute;
-  z-index: 99;
-  font-size: 35px;
+.n {
+  width: 200px;
+  font-size: 12px;
   color: white;
-  top: 1490px;
-  left: 230px;
-
+  margin-right: 120px;
 }
 
-.n2 {
-  position: absolute;
-  z-index: 99;
-  width: 600px;
-  font-size: 35px;
-  color: white;
-  top: 1490px;
-  left: 1200px;
-
+.gal {
+  position: relative;
+  width: 100vw;
+  overflow-x: scroll;
 }
-
-.n3 {
-  position: absolute;
-  z-index: 99;
-  width: 600px;
-  font-size: 35px;
-  color: white;
-  top: 1490px;
-  left: 2170px;
-
-}
-
-.n4 {
-  position: absolute;
-  z-index: 99;
-  width: 600px;
-  font-size: 35px;
-  color: white;
-  top: 1490px;
-  left: 3140px;
-
-}
-
-.n5 {
-  position: absolute;
-  z-index: 99;
-  width: 600px;
-  font-size: 35px;
-  color: white;
-  top: 1490px;
-  left: 4110px;
-
-}
-
-.n6 {
-  position: absolute;
-  z-index: 99;
-  width: 600px;
-  font-size: 35px;
-  color: white;
-  top: 1490px;
-  left: 5080px;
-
-}
-
-.n7 {
-  position: absolute;
-  z-index: 99;
-  width: 600px;
-  font-size: 35px;
-  color: white;
-  top: 1490px;
-  left: 6050px;
-
-}
-
-.n8 {
-  position: absolute;
-  z-index: 99;
-  width: 600px;
-  font-size: 35px;
-  color: white;
-  top: 1490px;
-  left: 7020px;
-
-}
-
-.n9 {
-  position: absolute;
-  z-index: 99;
-  width: 600px;
-  font-size: 35px;
-  color: white;
-  top: 1490px;
-  left: 7990px;
-
-}
-.layer {
-    overflow-x: scroll; /* Добавляем полосу прокрутки */
-    width: 100%; /* Ширина блока */
-    height: 100%; /* Высота блока */
-    padding: 0; /* Поля вокруг текста */
-    border: 0; /* Параметры рамки */
-    white-space: nowrap; /* Запрещаем перенос строк */
-   } 

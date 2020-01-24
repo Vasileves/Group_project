@@ -1,22 +1,10 @@
-@import "reset.css";
-
 @font-face {
     font-family: "beermoney";
-    font-family: "Montserrat";
-
 }
 
-* {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-
-html {
-    overflow-x: hidden;
-  }
-
+.text {
+  padding-top:100px;
+}
 
 .text h1 {
     font-family: "beer money";
