@@ -1,22 +1,3 @@
-@import "reset.css";
-
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-html {
-  overflow-x: hidden;
-}
-
-body {
-  overflow-x: hidden;
-  width: 320px;
-  font-family: Helvetica;
-  font-style: normal;
-  background-color: rgba(0, 0, 0, 1);
-}
 
 header {
   background-color: #000;

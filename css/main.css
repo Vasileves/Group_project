@@ -1,0 +1,33 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+}
+
+body {
+  overflow-x: scroll;
+  width: 320px;
+  font-family: Helvetica;
+  font-style: normal;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+footer {
+/* width: 1183px; */
+/* height: 100%; */
+background-color: #8e44ad;
+margin: 0;
+display: flex;
+flex-direction: row;
+}
+
+cheloblock {
+  overflow-x: auto;
+  min-width: 166px;
+  margin: 74px;
+}

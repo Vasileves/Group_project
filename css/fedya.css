@@ -3,7 +3,7 @@
 @font-face {
     font-family: "beermoney";
     font-family: "Montserrat";
-    
+
 }
 
 * {
@@ -17,13 +17,6 @@ html {
     overflow-x: hidden;
   }
 
-body {
-  overflow-x: hidden;
-  width: 320px;
-  font-family: "beermoney";
-  font-style: normal;
-  background-color: rgba(0, 0, 0, 1);
-}
 
 .text h1 {
     font-family: "beer money";
@@ -33,15 +26,14 @@ body {
     color: #FAFF00;
     padding-top: 20px;
     padding-left: 32px;
-    padding-bottom: 8px; 
+    padding-bottom: 8px;
 }
 
 .text p {
     color: #A6A6A6;
     font-size: 14px;
-    padding-left: 32px; 
+    padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 26px;
     font-family: "Montserrat";
 }
- 

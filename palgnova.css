@@ -1,20 +1,16 @@
-@import "reset.css";
 
-body {
-  background: black;
-}
-h1 {
+palg.h1 {
   position: absolute;
   z-index: 99;
   font-size: 24px;
   color: white;
   top: 35px;
   left: 120px;
-
 }
 
 .flex-img{
   display: flex;
+  position: relative;
   width: 100%;
 
 }
@@ -54,4 +50,10 @@ h1 {
   font-size: 12px;
   color: white;
   margin-right: 120px;
+}
+
+.gal {
+  position: relative;
+  width: 100vw;
+  overflow-x: scroll;
 }
