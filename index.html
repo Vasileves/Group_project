@@ -1,58 +1,143 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Stefan Sagmeister</title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/palgunova.css">
+  <link rel="stylesheet" href="css/amgalan.css">
+  <link rel="stylesheet" href="css/fedya.css">
 </head>
   <body>
-    <div class="Bio">
-      <ul>
-        <li class="dropdown">
-          <input type="checkbox" />
-          <a href="#" data-togle="dropdown">Биография</a>
-          <ul class="dropdown-menu">
-            <li>Стефан Загмейстер родился в 1962 году в австрийском городе Брегенц. Учился в университете прикладных искусств Вены,  Институте Пратта. Свою первую значимую награду получил на Московском биеннали.
-            </li>
-          </ul>
-         </li>
-         <li class="dropdown">
-            <input type="checkbox" />
-            <a href="#" data-togle="dropdown">Достижение</a>
-            <ul class="dropdown-menu">
-              <li>Оформлял обложки альбомов для  The Rolling Stones, David Byrne, Aerosmith и многие другие. Получил Грэмми в 2005 году и многие другие награды.
-              </li>
-            </ul>
-           </li>
-          <li class="dropdown">
-             <input type="checkbox" />
-             <a href="#" data-togle="dropdown">Факты</a>
-             <ul class="dropdown-menu">
-               <li>Расцарапал себя для рекламного плаката «AIGA»,раз в 7 лет берет творческий отпуск, Много лет назад художник решил посвящать 25% своего времени миру искусства (произведения для выставок и галерей, книги), 25% — научным исследованиям, 25% — социальным делам и оставшуюся четверть времени — музыкальной индустрии. 
-               </li>
-              </ul>
-          </li>
-       </ul>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/close_btn_320.svg" alt="Burger Menu"></a>
+      <a href="#bio">Биография</a>
+      <a href="#glr">Галерея</a>
+      <a href="#reditsh1">Авторы</a>
     </div>
-  <!-- footer -->
+    <div id="main"><header>
+      <span onclick="openNav()"><img src="img/burger_menu.svg" alt="Burger Menu"></span>
+      <img src="img/h1.svg" alt="headline">
+      <h2>“Для меня всегда важно испытывать кураж”</h2>
+    </header></div>
+  </body>
 
-  <footer>
-    <ul>
-      <li>
-        <img src="res/fedya.png"/><h2>Ф.Андрюшин</h2>
-      </li>
-      <li>
-        <img src="res/liza.png"/><h2>Е.Пальгунова</h2>
-      </li>
-      <li>
-        <img src="res/vasileves.png"/><h2>В.Лукин</h2>
-      </li>
-      <li>
-        <img src="res/amgalan.png"/><h2>А.Доржиев</h2>
-      </li>
-    </ul>
-  <img src="res/hse_logo.png"/>
-  </footer>
+  <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "232px";
+    document.getElementById("main").style.marginLeft = "232px";
+    document.getElementById("main").style.opacity = "0.5";
+    }
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("main").style.opacity = "1";
+    }
+  </script>
+
+<!-- FEDYA -->
+
+<div class="text" id="bio">
+  <h1>Биография</h1>
+  <p>Стефан Загмейстер родился в&nbsp;1962 году в&nbsp;австрийском городе Брегенц. Учился в&nbsp;университете прикладных искусств Вены, Институте Пратта. Свою первую значимую награду получил на&nbsp;Московском биеннали.</p>
+  <hr size=0.5px width=256px color=#ADADAD  align="center">
+  <h1>Достижения</h1>
+  <p>Оформлял обложки альбомов для The Rolling Stones, David Byrne, Aerosmith и&nbsp;многие другие. Получил Грэмми в&nbsp;2005 году и&nbsp;многие другие награды.</p>
+  <hr size=0.5px width=256px color=#ADADAD  align="center">
+  <h1>Факты</h1>
+  <p>Расцарапал себя для рекламного плаката &quot;AIGA&quot;,раз в&nbsp;7&nbsp;лет берет творческий отпуск, Много лет назад художник решил посвящать&nbsp;25% своего времени миру искусства (произведения для выставок и&nbsp;галерей, книги), 25%&nbsp;&mdash; научным исследованиям, 25%&nbsp;&mdash; социальным делам и&nbsp;оставшуюся четверть времени&nbsp;&mdash; музыкальной индустрии.</p>
+  <hr size=0.5px width=256px color=#ADADAD  align="center">
+  <h1>Мероприятия</h1>
+  <p>Выставки произведений Загмайстера проходили в&nbsp;Цюрихе, Вене, Нью-Йорке, Берлине, Японии, Праге, Кельне и&nbsp;Сеуле.</p>
+
+</div>
+
+
+<!-- LIZA (na samom dele Vasya) -->
+<div class = "gal" id="glr">
+<h1 class="palg">Галерея</h1>
+<div class="flex-img">
+  <img class="img1" src="img/1n.jpg" alt="/">
+  <img class="img2" src="img/2n.jpg" alt="/">
+  <img class="img3" src="img/3n.jpg" alt="/">
+  <img class="img4" src="img/4n.jpg" alt="/">
+  <img class="img5" src="img/5n.jpg" alt="/">
+  <img class="img6" src="img/6n.jpg" alt="/">
+  <img class="img7" src="img/7n.jpg" alt="/">
+  <img class="img8" src="img/8n.jpg" alt="/">
+  <img class="img9" src="img/9n.jpg" alt="/">
+</div>
+<div class="flex">
+  <div class="flex-im">
+    <img class="im" src="img/1.jpg" alt="/">
+    <img class="im" src="img/2.jpg" alt="/">
+    <img class="im" src="img/3.jpg" alt="/">
+    <img class="im" src="img/4.jpg" alt="/">
+    <img class="im" src="img/5.jpg" alt="/">
+    <img class="im" src="img/6.jpg" alt="/">
+    <img class="im" src="img/7.jpg" alt="/">
+    <img class="im" src="img/8.jpg" alt="/">
+    <img class="im" src="img/9.jpg" alt="/">
+  </div>
+</div>
+  <!-- <div class="text1">
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+    <p class="n">Плакат выставки в Шомоне. 2004</p>
+  </div> -->
+</div>
+
+
+
+
+
+
+<!-- VASYA -->
+<h1 id="creditsh1"> Авторы </h1>
+<footer>
+  <cheloblock>
+    <img src="img/avas/vasiliy.png">
+    <h1>Василий <br>Лукин</h1>
+    <h2>Арт-директор<br/>&nbsp</h2>
+    <a href = "https://www.facebook.com/vasileves.luk"><img src="img/fb.png"/></a>
+    <a href = "https://vk.com/id=0"><img src="img/vk.png"/></a>
+  </cheloblock>
+  <cheloblock>
+    <img src="img/avas/amgalan.png">
+    <h1>Амгалан <br>Доржиев</h1>
+    <h2>Дизайн и вёрстка<br>тайтла</h2>
+    <a href = "https://www.facebook.com/profile.php?id=100012441306820"><img src="img/fb.png"/></a>
+    <a href = "https://vk.com/snowbob"><img src="img/vk.png"/></a>
+  </cheloblock>
+  <cheloblock>
+    <img src="img/avas/fedor.png">
+    <h1>Фёдор <br>Андрюшин</h1>
+    <h2>Дизайн и вёрстка<br>биографии</h2>
+    <a href = "https://www.facebook.com/fandryushin"><img src="img/fb.png"/></a>
+    <a href = "https://vk.com/fandryushin"><img src="img/vk.png"/></a>
+  </cheloblock>
+  <cheloblock>
+    <img src="img/avas/liza.png">
+    <h1>Елизавета <br>Пальгунова</h1>
+    <h2>Дизайн и вёрстка<br>галереи</h2>
+    <a href = "https://www.facebook.com/messages/t/100041071770408"><img src="img/fb.png"/></a>
+    <a href = "https://vk.com/id247473175"><img src="img/vk.png"/></a>
+  </cheloblock>
+  <cheloblock>
+    <img src="img/avas/raim.png">
+    <h1>Шайхакмаль<br>Раимов</h1>
+    <h2>Ассистент<br>по эстетике</h2>
+    <a href = "https://www.facebook.com/raimshaykh"><img src="img/fb.png"/></a>
+    <a href = "https://vk.com/raimshaykh"><img src="img/vk.png"/></a>
+  </cheloblock>
+</footer>
   </body>
 </html>

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "beermoney";
+}
+
+
+.palg {
+  font-family: "beer money";
+  color: yellow;
+  position: absolute;
+  font-size: 40px;
+  top: 72px;
+  left: 99px;
+  z-index: 22;
+}
+
+.flex-img{
+  display: flex;
+  position: relative;
+  width: 100%;
+
+}
+
+.flex{
+  position: absolute;
+  top: 80px;
+  width: 1000px;
+
+}
+
+.flex-im {
+  padding-top: 92px;
+  display: flex;
+  width: 720px;
+
+}
+
+.im {
+  width: 280px;
+  height: 400px;
+  margin-left: 20px;
+  border: 5px;
+  margin-right: 21px;
+
+}
+
+/* .text1{
+  display: flex;
+  position: absolute;
+  top: 600px;
+  left: 56px;
+  text-align: center; */
+
+}
+
+.n {
+  width: 200px;
+  font-size: 12px;
+  color: white;
+  margin-right: 120px;
+}
+
+.gal {
+  position: relative;
+  width: 100vw;
+  overflow-x: scroll;
+}
